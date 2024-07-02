@@ -1,0 +1,38 @@
+.avatar-png {
+    // position: relative;
+    position: absolute;
+    width: 40%;
+    left: 0%;
+    bottom: 0%;
+    z-index: 1;
+
+    @media only screen and (max-width: $bp-small) {
+        width: 100%;
+    }
+}
+
+.about-img {
+    position: relative;
+    width: 27rem;
+    height: 27rem;
+    // border-radius: 50%;
+    display: flex;
+    // justify-self: center;
+    align-items: center;
+
+    @media only screen and (max-width: $bp-small) {
+        width: 21rem;
+        height: 21rem;
+    }
+
+    @media only screen and (max-width: $bp-verySmall-2) {
+        width: 18rem;
+        height: 18rem;
+    }
+
+    &__photo {
+        width: 100%;
+        border-radius: 50%;
+        border: .3rem solid $color-light-Hopscotch;
+    }
+}

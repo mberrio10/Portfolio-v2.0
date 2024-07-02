@@ -1,0 +1,36 @@
+.about-heading {
+    line-height: 0;
+    text-transform: uppercase;
+
+    @media only screen and (max-width: $bp-small) {
+        margin-top: 6rem;
+    }
+
+    &--main {
+        display: block;
+        font-size: 8rem;
+        opacity: .3;
+
+        @media only screen and (max-width: $bp-verySmall-2) {
+            font-size: 6rem;
+        }
+    }
+    
+    &--sub {
+        display: block;
+        font-size: 2rem;
+        font-weight: 300;
+        
+        @media only screen and (max-width: $bp-verySmall-2) {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}

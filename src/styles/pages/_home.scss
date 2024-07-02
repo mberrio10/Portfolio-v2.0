@@ -1,0 +1,89 @@
+.about-section {
+    padding: 9% 12% 15%;
+    background-color: $color-maireGreen;
+
+    @media only screen and (max-width: $bp-small) {
+        padding: 9% 9% 15%;
+    }
+
+    @media only screen and (max-width: $bp-smaller) {
+        padding: 12% 6% 9%;
+    }
+}
+
+.services-section {
+    padding: 18rem 12rem;
+    background-image: linear-gradient(to right bottom, rgba($color-light-Hopscotch, 0.87), rgba($color-primary-ArmyGreen, 0.87));
+
+    @media only screen and (max-width: $bp-medium) {
+        padding: 18rem 6rem;
+    }
+
+    @media only screen and (max-width: $bp-medium-small) {
+        padding: 18rem 3rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        padding: 12rem 2.7rem;
+    }
+
+    @media only screen and (max-width: $bp-smaller) {
+        padding: 9rem 1.5rem;
+    }
+}
+
+.languages-section {
+    padding: 25rem 0 15rem 0;
+    background-image: linear-gradient(to right bottom, rgba($color-MidnightPines-light, 0.87), rgba($color-MidnightPines-base, 0.87)),url(../../img/matrix-code.jpg);
+    background-size: cover;
+    
+    @media only screen and (max-width: $bp-medium) {
+        padding: 25rem 9rem 15rem 9rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        padding: 18rem 6rem 12rem 6rem;
+    }
+
+    @media only screen and (max-width: $bp-smaller) {
+        padding: 9rem 5rem;
+    }
+
+    @media only screen and (max-width: $bp-smallest) {
+        padding: 9rem 4rem;
+    }
+
+    @media only screen and (max-width: $bp-verySmall-2) {
+        padding: 9rem 2.4rem;
+    }
+}
+
+.skills-section {
+    padding: 15rem 12rem;
+    background-color: $color-MidnightPines-light;
+
+    @media only screen and (max-width: $bp-small) {
+        padding: 12rem 9rem;
+    }
+
+    @media only screen and (max-width: $bp-smaller) {
+        padding: 9rem 6rem;
+    }
+
+    @media only screen and (max-width: $bp-smallest) {
+        padding: 9rem 5rem;
+    }
+
+    @media only screen and (max-width: $bp-verySmall-1) {
+        padding: 7rem 4rem;
+    }
+}
+
+.projects-section {
+    padding: 25rem 6rem 15rem 6rem;
+    background-color: $color-blackOlive-base;
+
+    @media only screen and (max-width: $bp-small) {
+        padding: 9rem 3rem 6rem 3rem;
+    }
+}

@@ -1,0 +1,83 @@
+.hero {
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, rgba($color-MidnightPines-light, 0.87), rgba($color-MidnightPines-base, 0.87)),url(../../img/bg-banner.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    padding: 9% 12% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    @media only screen and (max-width: $bp-medium) {
+        padding: 9% 9% 15%;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        padding: 9% 5% 15%;
+    }
+
+    @media only screen and (max-width: $bp-smaller) {
+        padding: 6% 2.7% 12%;
+    }
+    
+    // &__image {
+        //     flex: 0 0 28.5%;
+        // }
+        
+        &__text-box {
+            flex: 1;
+            padding: 3rem;
+            margin-left: 6rem;
+            text-align: end;
+            line-height: 1.7;
+            
+            @media only screen and (max-width: $bp-mediumLarge-2) {
+                padding: 1.5rem;
+                margin-left: 3rem;
+            }
+            
+            @media only screen and (max-width: $bp-medium-small) {
+                margin-left: 1.8rem;
+            }
+
+            @media only screen and (max-width: $bp-small) {
+                padding: 0;
+                margin-left: 0;
+                margin-bottom: 6rem;
+            }
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 30rem;
+        height: 100%;
+        background: $color-primary-ArmyGreen;
+        transform-origin: top;
+        transform: skewX(25deg);
+        z-index: 1;
+
+        @media only screen and (max-width: $bp-large-1) {
+            width: 20rem;
+        }
+                
+        @media only screen and (max-width: $bp-large-1) {
+            width: 15rem;
+        }
+        
+        @media only screen and (max-width: $bp-medium) {
+            left: -15rem;
+        }
+
+        @media only screen and (max-width: $bp-medium-small) {
+            left: -27rem;
+        }
+
+        @media only screen and (max-width: $bp-medium-small) {
+            content: none;
+        }
+    }
+}

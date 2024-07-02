@@ -1,0 +1,26 @@
+.btn-text {
+    &:link,&:visited {
+        font-size: $default-font-size;
+        position: relative;
+        display: inline-block;
+        color: $color-light-Hopscotch;
+        text-decoration: none;
+        text-shadow: none;
+        border-bottom: 1px solid $color-light-Hopscotch;
+        padding: 9px;
+        margin: 9px;
+        transition: all 0.2s;
+    }
+
+    &:hover {
+        background-color: $color-primary-ArmyGreen;
+        color: $color-lighter-WhiteCrest;
+        box-shadow: 0 1rem 2rem rgba($color-light-Hopscotch, 0.15);
+        transform: translateY(-2px);
+    }
+
+    &:active {
+        box-shadow: 0 0.5rem 1rem rgba($color-light-Hopscotch, 0.15);
+        transform: translateY(0);
+    }
+}

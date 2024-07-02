@@ -1,0 +1,105 @@
+.projects {
+    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    
+    @media only screen and (max-width: $bp-small) {
+        margin-left: 0;
+    }
+    
+    &__arrow {
+        // font-size: 6rem;
+        position: absolute;
+        font-size: 6rem;
+        background-color: rgba($color-lighter-WhiteCrest, 0.5);
+        display: flex;
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        padding-bottom: 1rem;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        @media only screen and (max-width: $bp-small) {
+            font-size: 0;
+            background-color: transparent;
+            width: 0;
+            height: 0;   
+        }
+
+        &-lt {
+            // Add specific styles for the left arrow here
+            color: $color-blackOlive-base;
+            left: 5.2rem;
+        }
+
+        // Modifier for right arrow
+        &-rt {
+            // Add specific styles for the right arrow here
+            color: $color-blackOlive-base;
+            right: 3.5rem;
+        }
+    }
+}
+
+.projects::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    position: relative;
+    perspective: 150rem;
+    margin-right: 3rem;
+    width: 35rem;
+    height: 50rem;
+    overflow: hidden;
+    font-size: 1.7rem;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 3.9rem rgba($color-lighter-WhiteCrest, 0.15);
+    flex-shrink: 0;
+    // opacity: 0;
+    pointer-events: none;
+    transform: scale(0.8);
+    transition: 0.5s ease-in-out;
+
+    @media only screen and (max-width: $bp-small) {
+        pointer-events: visible;
+        transform: none;
+    }
+    
+    &__image {
+        background-size: cover;
+        height: 100%;
+    }
+    
+    &__content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        box-sizing: border-box;
+        padding: 2.5rem;
+        z-index: 1000;
+        text-shadow: 0.5rem 0.5rem 0.1rem $color-MidnightPines-base;
+        
+        &-title {
+            letter-spacing: 0.1rem;
+        }
+    }
+}
+
+.active {
+    // opacity: 1;
+    transform: scale(1);
+    pointer-events: visible;
+
+    @media only screen and (max-width: $bp-small) {
+        transform: none;
+    }
+}

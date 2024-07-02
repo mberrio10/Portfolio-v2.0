@@ -1,0 +1,37 @@
+//CUSTOM PROPERTY
+:root {
+    --line: 1px solid #1b1e0a;
+}
+
+// COLORS
+$color-primary-ArmyGreen: #4b5320;
+$color-light-Hopscotch: #acbb43;
+$color-lighter-WhiteCrest: #f8f9ef;
+
+$color-blackOlive-base: #343530;
+$color-MidnightPines-light: #1b1e0a;
+$color-maireGreen: #1a180a;
+$color-MidnightPines-base: #101206;
+
+//FONT
+$default-font-size: 1.8rem;
+
+//GRID
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 6rem;
+
+// MEDIA QUERIES
+$bp-largest: 118.4em; //1894px
+$bp-large-1: 90em; //1440px
+$bp-large-2: 85.4em; //1366px
+$bp-mediumLarge-1: 80em; //1280px
+$bp-mediumLarge-2: 64em; //1024px
+$bp-medium: 48em; //768px
+$bp-medium-small: 37.6em; //601px
+$bp-small: 26.6em; //425px
+$bp-smaller: 24.4em; //390px
+$bp-smallest: 23.6em; //375px
+$bp-verySmall-1: 22.5em; //360px
+$bp-verySmall-2: 20em; //320px

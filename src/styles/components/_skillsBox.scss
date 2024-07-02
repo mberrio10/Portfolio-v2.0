@@ -1,0 +1,42 @@
+.skills-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6rem;
+}
+
+.skills-box {
+    flex: 1 1 40rem;
+}
+
+// .skills-box-left {
+//     flex: 0 0 50%;
+// }
+
+// .skills-box-right {
+//     flex: 1;
+// }
+
+.progress {
+    padding: 1rem 0;
+
+    &__title {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__bar {
+        height: 2.5rem;
+        border-radius: .6rem;
+        border: .2rem solid $color-primary-ArmyGreen;
+        padding: .5rem;
+        margin: 1rem 0;
+    }
+
+    &__fill {
+        display: block;
+        height: 100%;
+        border-radius: 0.3rem;
+        background: $color-light-Hopscotch;
+        width: 90%;
+    }
+}

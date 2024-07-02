@@ -1,0 +1,169 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    background-color: $color-MidnightPines-base;
+    color: $color-lighter-WhiteCrest;
+    padding: 3rem;
+
+    @media only screen and (max-width: $bp-medium) {
+        padding: 0;
+    }
+}
+
+.heading-primary {
+    color: $color-lighter-WhiteCrest;
+    backface-visibility: hidden;
+
+    &--main {
+        display: block;
+        font-family: 'Abril Fatface', serif;
+        font-size: 6.9rem;
+        font-weight: 500;
+        letter-spacing: 1.5rem;
+
+        @media only screen and (max-width: $bp-largest) {
+            font-size: 6.6rem;
+        }
+
+        @media only screen and (max-width: $bp-large-1) {
+            font-size: 4rem;
+        }
+
+        @media only screen and (max-width: $bp-large-2) {
+            font-size: 3.3rem;
+        }
+
+        @media only screen and (max-width: $bp-mediumLarge-1) {
+            font-size: 3rem;
+        }
+
+        @media only screen and (max-width: $bp-mediumLarge-2) {
+            font-size: 2.7rem;
+            letter-spacing: 1.2rem;
+        }
+
+        @media only screen and (max-width: $bp-medium-small) {
+            font-size: 2.1rem;
+        }
+
+        @media only screen and (max-width: $bp-small) {
+            letter-spacing: .9rem;
+        }
+
+        @media only screen and (max-width: $bp-verySmall-1) {
+            font-size: 1.8rem;
+        }
+
+        @media only screen and (max-width: $bp-verySmall-2) {
+            font-size: 1.5rem;
+        }
+        
+        /*ANIMATIONS*/
+    }
+    
+    &--sub {
+        display: block;
+        font-size: 3.9rem;
+        font-weight: 500;
+        text-align: right;
+        letter-spacing: 1.5rem;
+        
+        @media only screen and (max-width: $bp-large-1) {
+            font-size: 2.5rem;
+        }
+
+        @media only screen and (max-width: $bp-large-2) {
+            font-size: 2.2rem;
+        }
+
+        @media only screen and (max-width: $bp-mediumLarge-1) {
+            font-size: 2rem;
+        }
+
+        @media only screen and (max-width: $bp-mediumLarge-2) {
+            font-size: 1.8rem;
+            letter-spacing: 1.2rem;
+        }
+        
+        @media only screen and (max-width: $bp-medium-small) {
+            font-size: 1.5rem;
+        }
+
+        @media only screen and (max-width: $bp-small) {
+            letter-spacing: .9rem;
+        }
+
+        @media only screen and (max-width: $bp-verySmall-1) {
+            font-size: 1.2rem;
+        }
+
+        @media only screen and (max-width: $bp-verySmall-2) {
+            font-size: .9rem;
+        }
+        /*ANIMATIONS*/
+    }
+
+}
+
+.social-icon {
+    color: $color-light-Hopscotch;
+    font-size: 3.6rem;
+    margin: 3% 0% 3% 3%;
+    padding: 0.6rem 0.5rem 1.1rem;
+
+    @media only screen and (max-width: $bp-mediumLarge-2) {
+        font-size: 2.7rem;
+    }
+
+    @media only screen and (max-width: $bp-verySmall-1) {
+        font-size: 1.8rem;
+    }
+
+    @media only screen and (max-width: $bp-verySmall-2) {
+        font-size: 1.5rem;
+    }
+}
+
+.heading-secondary {
+    display: inline-block;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 3.3rem;
+    }
+
+    @media only screen and (max-width: $bp-verySmall-2) {
+        font-size: 3rem;
+    }
+}
+
+.heading-tertiary {
+    font-size: $default-font-size;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    font-size: $default-font-size;
+
+    @media only screen and (max-width: $bp-medium-small) {
+        font-size: 1.5rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+
+        @media only screen and (max-width: $bp-verySmall-1) {
+            margin-bottom: 1.8rem;
+        }
+    }
+}

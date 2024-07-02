@@ -1,0 +1,18 @@
+// @import './styles/variables';
+@import './abstracts/variables';
+
+@import './base/base';
+@import './base/typography';
+@import './base/utilities';
+
+@import './components/button';
+@import './components/compositions';
+@import './components/services';
+@import './components/languages';
+@import './components/skillsBox';
+@import './components/card';
+
+@import './layout/hero';
+@import './layout/about';
+
+@import './pages/home';
