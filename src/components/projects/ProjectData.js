@@ -6,7 +6,7 @@ export const projectsInfo = [
     technologies: ["Mongo", "Express", "React", "Node"],
     type: "full-stack",
     live: "https://mikeberrio.netlify.app/",
-    source: "https://github.com/mberrio10",
+    source: "https://github.com/mberrio10/Portfolio-v2.0",
   },
 
   {
@@ -15,8 +15,8 @@ export const projectsInfo = [
     desc: "Stylish Sparkle Salon V2.0: Sass-crafted, Express-backed, EJS-rendered elegance.",
     technologies: ["EJS", "Express", "Node"],
     type: "full-stack",
-    live: "https://mikeberrio.netlify.app/",
-    source: "https://github.com/mberrio10",
+    live: "https://sparklesalonboutique.com/",
+    source: "https://github.com/mberrio10/Sparkle-Salon-v2.0",
   },
 
   {
@@ -25,8 +25,8 @@ export const projectsInfo = [
     desc: "Fitness Blog: A MERN stack React app for fitness enthusiasts with interactive blogs.",
     technologies: ["Mongo", "Express", "React", "Node"],
     type: "full-stack",
-    live: "https://mikeberrio.netlify.app/",
-    source: "https://github.com/mberrio10",
+    live: "https://girlsinbalance.netlify.app/",
+    source: "https://github.com/mberrio10/Fitness-App-MERN-FrontEnd",
   },
 
   {
@@ -35,8 +35,8 @@ export const projectsInfo = [
     desc: "MovieMaster: A React app with Redux & Axios, streaming data from The Movie TMDB API.",
     technologies: ["React", "API"],
     type: "Front-end",
-    live: "https://mikeberrio.netlify.app/",
-    source: "https://github.com/mberrio10",
+    live: "https://themovieweekend.netlify.app/",
+    source: "https://github.com/mberrio10/the-movie-weekend",
   },
 
   {
@@ -45,8 +45,8 @@ export const projectsInfo = [
     desc: "RepoFinder: A sleek React app leveraging GitHub API for language-specific repos.",
     technologies: ["React", "API"],
     type: "Front-end",
-    live: "https://mikeberrio.netlify.app/",
-    source: "https://github.com/mberrio10",
+    live: "https://search-app-ten.vercel.app/",
+    source: "https://github.com/mberrio10/search_app",
   },
 
   {
@@ -55,7 +55,7 @@ export const projectsInfo = [
     desc: "A fun JavaScript game where you can play the simon game and each level will get difficult .",
     technologies: ["JavaScript", "HTML5"],
     type: "game",
-    live: "https://mikeberrio.netlify.app/",
+    live: "https://playthesimongame.netlify.app/",
     source: "https://github.com/mberrio10",
   },
 
@@ -65,7 +65,7 @@ export const projectsInfo = [
     desc: "A fun JavaScript game where you can play the drums with your keyboard.",
     technologies: ["JavaScript", "HTML5"],
     type: "game",
-    live: "https://mikeberrio.netlify.app/",
+    live: "https://playsomedrums.netlify.app",
     source: "https://github.com/mberrio10",
   },
 
@@ -75,7 +75,7 @@ export const projectsInfo = [
     desc: "A fun JavaScript game where 2 players can roll a dice and the app will tell you the winner.",
     technologies: ["JavaScript", "HTML5"],
     type: "game",
-    live: "https://mikeberrio.netlify.app/",
-    source: "https://github.com/mberrio10",
+    live: "https://playthedicegame.netlify.app",
+    source: "https://github.com/mberrio10/Dicee-Challenge",
   },
 ];
