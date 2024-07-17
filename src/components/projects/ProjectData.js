@@ -50,6 +50,16 @@ export const projectsInfo = [
   },
 
   {
+    image: "/images/68826988.png",
+    title: "MiamiTech.Works Online Portal",
+    desc: "MiamiTech.Works, is a one-stop-shop portal created by a coalition of Miami’s business, education and government leaders combining resources to help local citizens impacted by the economic slowdown from Coronavirus.",
+    technologies: ["React", "API"],
+    type: "Front-end",
+    live: "https://miamitech.works/",
+    source: "https://github.com/miamiworks/web",
+  },
+
+  {
     image: "/images/SimonGame.jpg",
     title: "The Simon Game",
     desc: "A fun JavaScript game where you can play the simon game and each level will get difficult .",

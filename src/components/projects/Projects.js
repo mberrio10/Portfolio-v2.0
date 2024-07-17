@@ -15,7 +15,7 @@ const Projects = ({ theData }) => {
     return () => clearTimeout(timeOut.current);
   });
 
-  const slideWidth = 250;
+  const slideWidth = 360;
 
   const slideRight = () => {
     setCurrent(current === theData.length - 1 ? 0 : current + 1);
